@@ -1,0 +1,35 @@
+
+#hero-img{
+    background-image: url("../imagenes/img-hero.jpg");
+    height: 80vh;
+    width: 100vw;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.hero-text{
+    height: 100%;
+    background: rgba($color: transparent, $alpha: 0.99);
+    background: radial-gradient(ellipse farthest-corner at center center, transparent 0%, #25252a 70%);
+    background: -webkit-radial-gradient(ellipse farthest-corner at center center, transparent 0%, #25252a 70%);
+    background: -moz-radial-gradient(ellipse farthest-corner at center center, transparent 0%, #25252a 70%);
+}
+
+#logo{
+    width: auto;
+    height: 10vh;
+}
+
+.first-img{
+    width: 75%;
+}
+
+.carousel-img{
+    width:100vw;
+    height: auto;
+
+}
+
+
+

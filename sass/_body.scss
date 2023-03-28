@@ -1,0 +1,93 @@
+/* Estilos inicio*/
+
+body{
+    background-color: #eee9f3;
+}
+
+.active{
+    color: rgb(231, 15, 15);
+}
+
+.product-name{
+    color:rgb(231, 15, 15);
+    font-size: bold;
+    padding: 0 8px;
+}
+
+.second-hero-text{
+    height: 65vh;
+    text-align: center;
+    padding-top: 65%;
+    margin: 0 3rem;
+}
+
+.wp-icon{
+    height: 42px;
+    width: 42px;
+    border-radius:50%;
+    z-index: 99
+}
+
+.bi-whatsapp{
+    font-size: 28px;
+    padding-left: 3px;
+}
+
+/* estilos servicios */
+
+#servicios{
+    margin-top: 8rem;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+/* seccion clientes */
+#clientes{
+    padding-top: 8rem;
+}
+
+/* seccion contacto */
+#contacto{
+    padding-top: 5rem;
+}
+
+
+
+@media (min-width: 426px) { 
+    .second-hero-text{
+        padding-top: 40vh;
+        font-size: 1.1rem;
+    }
+    .first-hero-text{
+        font-size: 1.1rem; 
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .first-img{
+        height: auto;
+        width: 300px;
+    }
+    .carousel-img{
+        height: 75vh;
+        width: auto;
+     }
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+ }
+
+
+
+ @media (min-width: 1000px) { 
+    .second-hero-text{
+        padding-top: 45vh;
+        font-size: 1.5rem;
+    }
+    .first-hero-text{
+        font-size: 1.5rem; 
+    }
+ }
